@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+}
+
+header 
+{
+    width: 22%;
+    top: 0;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.menu {
+    margin-top: 18%;
+    padding: 0;
+    text-transform:uppercase;
+}
+
+.menu li {
+    padding: 10px;
+    list-style: none;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.inicio_header {
+    margin-top: 4%;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.inicio_header a {
+    color: black;
+    text-decoration: none;
+}
+
+.newsletter_div {
+    margin-top: 60%;
+}
+
+#sec01 {
+    margin-left: 22%;
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    margin-top: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container_mosso_camera {
+    width: 50%;
+}
+
+.Virsh {
+    width: 100%;
+    margin-left: 2%;
+}
+
+.Virsh div {
+    font-size: 24px;
+    color: #bfbfbf;
+    font-weight: 400;
+    font-family: "Montserrat", Arial, sans-serif;
+    src: url(https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+}
+
+.Virsh h1 {
+    position: relative;
+    top: 90px;
+    right: 60px;
+    color: #ededed;
+    z-index: -1;
+    font-size: 70px;
+    line-height: 1;
+}
+
+.Virsh h3 {
+    position: relative;
+    left: 20px;
+    font-size: 40px;
+}
+
+.Virsh p {
+    text-align: left;
+}
+
+.dourado {
+    font-size: 40px;
+    color: #ccb78f;
+}
+
+.Follow img {
+    width: 194px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.Follow {
+    margin-top: 3%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Follow h2 {
+    margin-bottom: 3%;
+    font-size: 18px;
+    color: #000000CC;
+    text-align: center;
+}
+
+.sec2 {
+    margin-left: 22%;
+    text-align: center;
+}
+
+#Bloco {
+    width: 79%;
+    height: 222px;
+    margin-left: 22%;
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    text-align: center;
+}
+
+#Bloco h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: #ccb78f;
+    width: 10%;
+}
+#Bloco #esquerda{
+    margin-left: 10%;
+}
+
+#Bloco p {
+    width: 6%;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    display: flex;
+    margin-top: 4%;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    margin-left: 22%;
+    width: 78%;
+    background-color: #242423;
+    color: white;
+}
+
+.footer-images {
+    width: 110px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.Recent-Photos {
+    margin-top: 3%;
+    margin-left: 19%;
+    width: 300px;
+    height: 300px;
+}
+
+.Recent-Photos h2 {
+    margin-bottom: 10%;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.Recent-Photos-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-images-link {
+    width: 92px;
+    height: 100px;
+}
+
+.footer-links {
+    color: white;
+    text-decoration: none;
+}
+
+.Archives {
+    width: 25%;
+}
+
+.Archives h2 {
+    text-align: center;
+    margin-top: 13%;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
+.Archives ul {
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+
+.Archives li {
+
+    border-bottom: 1px solid gray;
+    margin-bottom: 5%;
+}
+
+.Archives a {
+    font-family: "Montserrat", Arial sans-serif;
+    color: #FFFFFF80;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Archives span {
+    color: white;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Louie Smith</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li><a href="index.html" class="imagem-menu"></a></li>
+            <li class="Louie_Smith"><a href="index.html">Louie Smith</a></li>
+            <li class="home"><a href="index.html">HOME</a></li>
+            <li class="Collection"><a href="index.html">Collection</a></li>
+            <li class="About Me"><a href="index.html">About Me</a></li>
+            <li class="My Services"><a href="index.html">My Services</a></li>
+            <li class="Blog"><a href="index.html">Blog</a></li>
+            <li class="Contact"><a href="index.html">Contact</a></li>
+
+            <div>
+                <p>
+                    Newsletter
+                </p>
+                <input type="text" class="Newsletter" placeholder="Enter Email Address">
+            </div>
+        </ul>
+    </header>
+    <section>
+    <div class="container_mosso_camera">
+        <img src="imagens/mosso-camera.jpg" alt="">
+        <span> Louie Smith</span>
+        <h1>
+            Louie Smith
+        </h1>
+        <h1>
+            <span> Louie Smith </span>
+            <span class="dourado"> A Photographer. </span>
+            <span> I Capture Life </span>
+        </h1>
+        I am A Photographer from America Far <br> 
+        far away, behind the word mountains, <br>
+        far from the countries Vokalia and <br>
+        Consonantia, there live the blind texts. <br>
+        Separated they live in Bookmarksgrove <br>
+        right at the coast of the Semantics, a <br>
+        large language ocean.
+        <h3 class="Louie_Smith_assinatura">
+            Louie Smith
+        </h3>
+        <a href="index.html">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        </a>
+    </div>
+</section>
+<section>
+    <h1> Follow me on Instagram </h1>
+    <div>
+        <a href="index.html"> <img src="" alt=""></a>
+        <a href="index.html"> <img src="" alt=""></a>
+        <a href="index.html"> <img src="" alt=""></a>
+        <a href="index.html"><img src="" alt=""></a>
+        <a href="index.html"><img src="" alt=""></a>
+    </div>
+</section>
+
+<footer>
+    <div>
+        <h1> Recent Photos </h1>
+        <a href="index.html"> <img src="" alt=""></a>
+        <a href="index.html"> <img src="" alt=""></a>
+        <a href="index.html"> <img src="" alt=""></a>
+        <a href="index.html"><img src="" alt=""></a>
+        <a href="index.html"><img src="" alt=""></a>
+        <a href="index.html"><img src="" alt=""></a>
+    </div>
+    <div>
+        <h1> Archives</h1>
+        <a href="index.html"> November 2018 <span> (105) </span></a>
+        <a href="index.html"> October 2018 <span> (212) </span></a>
+        <a href="index.html"> September 2018 <span> (150) </span></a>
+        <a href="index.html"> August 2018 <span> (100) </span></a>
+        <a href="index.html"> July 2018 <span> (200) </span></a>
+    </div>
+    <div>
+        <h1>Have a Questions?</h1>
+        <a href="index.html"> <img src="" alt=""> 	203 Fake St. Mountain View, San <br> Francisco, California, USA </a>
+        <a href="index.html"> <img src="" alt=""> 	+2 392 3929 210  </a>
+        <a href="index.html"> <img src="" alt=""> 	info@yourdomain.com  </a>
+    </div>
+    <div class="Copyright-container">
+        <p class="Copyright">
+    Copyright © 2018 All rights reserved | 
+    This template is made with ♥ by 
+    <span class="Colorlib"> Colorlib</span>
+</p>
+    </div>
+</footer>
+</body>
+</html>
+
+#Minha-Blog 
+{
+    Background-color: #ccb78f;
+    width: 80%;
+    margin-left: 20%;
+    height: 20vh;    
+}
+
+#Minha-Blog div
+{
+    display:flex;
+}
+
+#Minha-Blog a 
+{
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 16px;
+    margin-left: 30%;
+}
+
+#Minhha-Blog p 
+{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+}
+
+#Minha-Blog-text
+{
+    margin-left: 30%;
+}
